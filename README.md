@@ -3,7 +3,7 @@
 ---
 
 # HIT
-My own programming written in Python .
+A programming Language written in python
 
 # Target
 An educational aid for junior IT students for introduction of python.
