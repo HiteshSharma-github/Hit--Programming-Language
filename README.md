@@ -29,7 +29,7 @@ hit <name-of-hit-file>
 ./hit.sh <name-of-hit-file>
 ```
 
-I have an `example.cobra` file in the root directory of this repository.
+I have an `example.hit` file in the root directory of this repository.
 You can run it by running the following command in your terminal:
 ```shell
 python execute.py example.hit
@@ -37,10 +37,10 @@ python execute.py example.hit
 or by using the other two options above: [Windows](#windows), [Mac or Linux](#mac-or-linux).
 
 ### Syntax
-The basic syntax for a Cobra program is: `name of function any arguments to be passed in to the function`. That's a bit confusing. So for example, if you type `say Hello, World!`, `say` is the function and `Hello, World!` is the argument. To create a comment, use the # sign. For example: `# This is a comment. It will be ignored by Hit`.
+The basic syntax for a Hit program is: `name of function any arguments to be passed in to the function`. That's a bit confusing. So for example, if you type `say Hello, World!`, `say` is the function and `Hello, World!` is the argument. To create a comment, use the # sign. For example: `# This is a comment. It will be ignored by Hit`.
 
 ### Functions
-The current functions for Cobra are:
+The current functions for Hit are:
 #### say
 Description: Print to the console
 <br>
@@ -80,11 +80,11 @@ say_hello
 Description: Imports a file into your current executing program.
 <br>
 Arguments:
-- filename: The name of the file you want to import. Can end with .cobra or not.
+- filename: The name of the file you want to import. Can end with .hit or not.
 
 Example: `import helloworld`
 
-Inside helloworld.cobra, there is a function called `testing_func`. To run it, just type it in like usual.
+Inside helloworld.hit, there is a function called `testing_func`. To run it, just type it in like usual.
 ```
 import helloworld
 testing_func
@@ -92,7 +92,7 @@ testing_func
 The `import` function will always import everything as of this commit.
 
 #### run_python
-Description: Runs a line of Python code in the Cobra environment.
+Description: Runs a line of Python code in the Hit environment.
 <br>
 Arguments:
 - query: The query that you want to run.
