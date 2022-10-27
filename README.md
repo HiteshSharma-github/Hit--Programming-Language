@@ -17,6 +17,8 @@ All you have to do is:
 ```shell
 python execute.py <name-of-hit-file>
 ```
+![test](https://user-images.githubusercontent.com/85629794/198265576-4b0b2931-2dd6-478b-b889-4fd7dee387bf.jpg)
+
 You also have 2 other options:
 #### Windows
 ```batch
