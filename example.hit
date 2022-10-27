@@ -1,0 +1,27 @@
+# This is a comment
+
+# This is how you print to the console
+say "Whatever"
+
+# This is how you create a variable
+create_var test "Testing!"
+
+# You can also print variables to the console
+say test
+
+# This is how you create functions
+create_function my_function:
+   say test
+   say "Hi"
+
+# This is how you run functions
+my_function
+
+# This is how you import other Cobra files
+import helloworld
+
+# You can use functions from other files
+testing_func
+
+# Just for compatibility reasons, you can use Python!
+run_python "print('well now this is a party!')"
